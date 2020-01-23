@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#manual apps: chrome, discord, steam
-
 ### Disable apport
 # apport is a tool to report bugs, but seems to pop up frequently
 # under normal Chrome usage and just serves to waste time and look scary
@@ -37,8 +35,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 ### Software
 sudo apt install gnome-tweaks
-# sudo apt purge firefox
 flatpak install flathub org.gimp.GIMP
-
-# Change time to AM/PM
-# Change Steam interface to turn off ads
